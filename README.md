@@ -9,4 +9,3 @@
 6. Update `pipeline` folder
 7. Update `main.py`
 8. Update `app.py`
-    
