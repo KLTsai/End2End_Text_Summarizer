@@ -2,7 +2,7 @@ import os
 from textSummarizer.logging import logger
 from textSummarizer.config.configuration import DataTransformationConfig
 from transformers import  AutoTokenizer
-from datasets import load_dataset
+from datasets import load_from_disk, load_dataset
 
 class DataTransformation:
     def __init__(self, config: DataTransformationConfig):
